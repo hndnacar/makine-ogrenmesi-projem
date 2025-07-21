@@ -1,0 +1,1 @@
+# makine-ogrenmesi-projem
