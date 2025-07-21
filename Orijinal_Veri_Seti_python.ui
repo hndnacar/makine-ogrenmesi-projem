@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>806</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_veriSetiGster">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>150</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Veri Setini Göster</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_onslemeHazrlk">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>100</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sayısal Olmayan Sütunları Kategorize Et</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_knn">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>200</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>KNN Modeli</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_kfold">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>480</y>
+     <width>371</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>K-Fold Uygula</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_baslik">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>40</y>
+     <width>286</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Makine Öğrenmesi Projesi</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_veriSetiYkle">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>100</y>
+     <width>251</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Veri Setini Yükle</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_predict_proba">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>390</y>
+     <width>371</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>En İyi Modelde Predict_proba ve Predict Metorları</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_veriSetiniEgit">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>320</y>
+     <width>251</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Veri Setini Eğit</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_dt">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>280</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Decision Tree</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_lr">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>240</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lojistik Regresyon</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonMetrikler">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>570</y>
+     <width>371</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Doğruluk Metriklerini ve Karmaşıklık Matrisini Göster</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonModelOrnek">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>660</y>
+     <width>371</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modelin Uygulanma Örneği</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
